@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>humhai</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 200px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>WELLCOME TO Humhai.com</h1>
+  <p></b> Service is best way to connect with people</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="#" class="active">Our Service</a>
+  <a href="#Our Company" class="w3-bar-item w3-button">Our Company</a>
+  <a href="#About Us" class="w3-bar-item w3-button">About Us</a>
+  <a href="#" class="active">Safety</a>
+  <a href="#Help" class="w3-bar-item w3-button">Help</a>
+  <a href="#" class="right">Login</a>
+  <a href="#" class="right">Signup</a>
+
+
+
+  
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>BOOK OUR SERVICES</h2>
+    <h5>Humhai Service</h5>
+<img src="sliderr.png" width="350" height="500" style=" text-align:center"
+    <div class="sliderr.png" style="height:200px;"</div>
+    
+    <h3>
+    <p>Services</p></h3>
+
+     <div> <button type="button" class="fakeimg" style="height:60px;">Home Service</div><br>
+    <div> <button type="button" class="fakeimg" style="height:60px;">Professional Services</div><br>
+     <div> <button type="button" class="fakeimg" style="height:60px;">Professional Service man</div>
+
+
+
+ 
+ </div>
+  <div class="main">
+    <h1>Organizing Home And Professional Services</h1>
+    <h1></h1>
+    <div class="ddd" style="height:50px;"></div>
+    <p><h6>Indian or elsewhere the business of establishing service centers for providing retail, commercial, installation and professional services related to repair and maintenance of all kinds of electrical appliances and plumbing, electrician , Water service , photo & videographer , wedding band party , event management , mini truck service , TV repairing service, computer repairing , painter , A.C repairing , apparatus and machinery, and all components.
+</h6></p>
+
+<p><h3>KAZIRANGA HOME SERVICE PRIVATE LIMITED  is our commitment to bring professionalism, good service and trust to the home repair service and maintenance business. We take immense pride in sending some of the most professional Serviceman to your homes to fix things that aren't working.                         
+</h3></p>                               
+
+
+
+
+
+
+<p><h3>Our Vision
+</h3></P>  
+To provide customers with home repair service experience that delights them and become their best-handy-friend.  
+                            
+
+
+
+
+<p><h3>Our History</h3></P>
+We started our operations from Guwahati in 2019 with servicemen. Today we have 250 servicemen across Guwahati   
+                             
+
+
+
+
+
+<p><h3>Our Values</h3></P>
+We believe in our processes and in our people who lead them. We enjoy the power of empowerment and delegation. 
+                
+
+
+
+
+
+
+<p><h3>Board of Directors </h3></p>
+The Honorable Directors of the Company are: 
+<p>1. Mr. RAKESH BARMAN 
+2. Mr. PARESH DEKA   
+3. Mr. RAJIB MANDAL </p>
+    
+  </div>
+</div>
+<!-- About Section -->
+<center>
+  <div class="w3-container w3-padding-32" id="About Us">
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Us</h3>
+<p><center><p>The colloquial word, ‘humhai', literally translates to 'worriless' and that's the vision humhai.com was born with and strives for.</p>
+
+<p>At humhai.com, our mission is to organize the unorganized home services industry that for decades has been dominated largely by unskilled, unverified handymen leading to non-standardized services and frustrating experiences. With rapid urbanization, digitization and global exposure, standards of living are increasing for the common Indian household leading to demand for better home services through well-qualified and trained professionals.</p>
+
+<p>Indian households fast paced lifestyle look for tech-enabled professional home services brands that can deliver convenient & timely services at their doorstep. Realizing the growing gap between demand for trained professionals and supply of unskilled handymen that was affecting millions of households in urban India, befikr.in was founded in 2016 and since then we have been revolutionising the home services industry with a revolution referred as ‘humhai’ who undergo a rigorous multi-layered verification process and are exposed to a standardized induction program sensitizing and skilling them in the art of public dealing with primary focus on women, senior citizens and children. The world is growing and so are our humhai.</p>
+
+<p>Today, our in-house team of handpicked qualified IT professionals - humhai are the hallmark of quality service by offering basic home services like electrical, plumbing, carpentry, air conditioning, masonry, painting, home appliances repair & service, deep cleaning and partial to complete renovations. The above bouquet of home to office services makes befikr.in the one-stop-shop guaranteeing everyone humhai days and humhai nights. </p> </center></p>
+  </div>
+
+
+
+
+<!-- our company -->
+<center>
+  <div class="w3-container w3-padding-32" id="Our Company">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Our Company</h3>
+
+     <p><center>Indian or elsewhere the business of establishing service centers for providing retail, commercial, installation and professional services related to repair and maintenance of all kinds of electrical appliances and plumbing, electrician , Water service , photo & videographer , wedding band party , event management , mini truck service , TV repairing service, computer repairing , painter , A.C repairing , apparatus and machinery, and all components.
+    </center></p>
+  </div>
+<center>
+  <div class="w3-container w3-padding-32" id="Our Company">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Our Company</h3>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="RAKESH" style="width:100%">
+      <h3>RAKESH BARMAN</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Suraj" style="width:100%">
+      <h3>Suraj Yadav</h3>
+      <p class="w3-opacity">Accounts head</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Rajib" style="width:100%">
+      <h3>Rajib Mandal</h3>
+      <p class="w3-opacity">Marketing head</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Ranajeet" style="width:100%">
+      <h3>Ranajeet Roy</h3>
+      <p class="w3-opacity">Marketing Head</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+</center>
+    </div>
+  </div>
+<center>
+  <div class="w3-container w3-padding-32" id="Help">
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Help Form</h3>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+ <label for="lEmail">Email</label>
+    <input type="text" id="lEmail" name="Email" placeholder="Your Email">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer"
+<div class="container-fluid section">
+            <div class="container" style="margin-top:20px;">
+                <div class="col-md-3">
+                    <img src="logo.png" href="" width="120" height="40" style="margin-top:15px;">
+                </div>
+                <div class="col-md-6 text-center term_and_privacy_link">
+                        <span>
+                            <a href="terms_of_use.php">Terms Of Use</a> &nbsp;
+                            <a href="privacy_policy.php">Privacy Policy </a>
+                        </span>
+                   
+                
+                <div class="col-md-3" style="margin-top:20px;">
+                    <div class="socialImg">
+
+                        <a href="https://www.facebook.com/profile.php?id=100009599800109" target="_blank"
+                           class="footerSocialFB">
+                            <img src="facebook.png" width="30" height="30" alt="Humhai.com Facebook">
+                        </a>
+
+                        <a href="https://twitter.com/befikr_in?lang=en" target="_blank" class="footerSocialTwitter">
+                            <img src="twitter.png" width="30" height="30" alt="humhai.com Twitter">
+                        </a>
+
+                        <a href="https://plus.google.com/+befikrin" target="_blank" class="footerSocialLinkedIn">
+                            <img src="google_plus.png" width="30" height="30" alt="humhai.com googleplus">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</footer>
+<h7> <small>® All Rights Reserved © Copyright 2019 KAZIRANGA HOME SERVICE PRIVATE LIMITED</small>
+</h7>
+</footer>
+</div>
+
+</body>
+</html>
